@@ -1,0 +1,36 @@
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-block{
+    test();
+}
+#tbl_product th{
+	text-align: center;
+}
+#tbl_product td{
+	text-align: center;
+}
+
+#info td{
+	text-align: left;
+}
+
+.content{
+	padding-top: 1%;
+	padding-bottom: 1%;
+    background: rgba(0, 0, 0, 0.1);
+}
+@page {
+  size: 9;
+  margin: 0;
+}
+@media print {
+  html, body {
+    width: 95.25mm;
+    height: 220.345mm;
+  }
+  /* ... the rest of the rules ... */
+}

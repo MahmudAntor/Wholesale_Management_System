@@ -1,0 +1,114 @@
+@charset "utf-8";
+body{
+	margin:0;
+	background-color:#CCC;
+	font-family:calibri, Arial;
+	background:url(../images/bg.jpg) no-repeat center center fixed;
+}
+
+p{
+	margin:0;
+}
+
+a{
+	text-decoration:none;
+	color:blue;
+	outline:0;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+#header{
+	height:200px;
+	width:840px;
+	background-image: url(../images/header.png);
+	margin:0 0 0 43%;
+	background-repeat:no-repeat;
+}
+#content{
+	width:800px;
+	margin:0 auto;
+	padding:10px;
+	background-color:white;
+	overflow: auto;
+}
+
+#footer{
+	clear:both;
+	height:40px;
+	width:800px;
+	background-color:black;
+	margin:0 auto;
+	padding:10px 20px;
+}
+
+.title{
+	font-size:20px;
+	font-weight:bold;
+	margin:5px 0;
+}
+#general_info{
+	float:left;
+}
+
+#customer_info{
+	float:right
+}
+
+#product_info{
+	width:100%;
+	clear:both;
+	padding-top:10px;
+}
+
+#tbl_product{
+	text-align:center;
+	width:100%;
+	border-collapse:collapse;
+}
+
+#tbl_product td, #tbl_product th {
+	border:1px solid #CCC;
+	padding:3px 7px 2px 7px;
+}
+
+#tbl_product th {
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color: rgba(204,204,204,0.2);
+}
+
+
+.del{
+	height:20px;
+	width:20px;
+	opacity:.7;
+}
+
+.del:hover{
+	opacity:1;
+}
+
+#summary{
+	float:right;
+}
+
+.error{
+	color:red;
+}
+.edit{
+    opacity:.7;
+}
+.edit:hover{
+	opacity:1;
+}
+#box2{
+	width:350px;
+	height:auto;
+	margin-right:-350px;
+	position:relative;
+	background-color:#333;
+	float:right;
+	}
